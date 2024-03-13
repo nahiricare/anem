@@ -1,0 +1,82 @@
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url(/brand/bg-Version-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .welcome .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 65%;
+        margin: 20px;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+
+    .welcome .logo img{
+    width: 90%;
+    }
+
+    .welcome .bienvenida h1{
+        font-size: 65px;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .welcome .bienvenida p{
+        font-size: 25px;
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .welcome .scroll img{
+        width: 30%;
+        animation: bounce 2s infinite;
+        animation-timing-function: ease-in-out;
+        transform: rotate(180deg);
+    }
+    
+    .welcome .scroll{
+        position: fixed;
+        bottom: 145px;
+        left: 50%;
+        transform: translateX(-80%) rotate(180deg);
+        z-index: 1000;
+    }
+
+    .welcome .scroll a{
+        display: block;
+    }
+
+    html, body{
+        scroll-behavior: smooth;
+    }
+}
+
+
+
+
+
+
+
+/* Estilos para dispositivos móviles con resolución de 360x640 (HD) */
+@media only screen and (max-width: 360px) {
+    /* Agrega tus estilos aquí */
+}
+
+/* Estilos para dispositivos móviles con resolución de 720x1280 (HD) */
+@media only screen and (min-width: 361px) and (max-width: 720px) {
+    /* Agrega tus estilos aquí */
+}
+
+/* Estilos para dispositivos móviles con resolución de 1080x1920 (Full HD) */
+@media only screen and (min-width: 721px) and (max-width: 1080px) {
+    /* Agrega tus estilos aquí */
+}
+
+/* Estilos para dispositivos móviles con resolución de 1440x2560 (QHD) */
+@media only screen and (min-width: 1081px) and (max-width: 1440px) {
+    /* Agrega tus estilos aquí */
+}
